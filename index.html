@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <div class="title">
+              <h2>YAY! IT'S BOGO</h2>
+            </div>
+        </div>
+
+        <div class="options-container">
+            <!-- Option 1 -->
+            <div class="option">
+                <input type="radio" name="unit" id="unit1" checked>
+                <label for="unit1">
+                    <span class="unit-info">
+                        <span>1 Unit</span>
+                        <span class="discount">10% Off</span>
+                    </span>
+                    <span class="description">Standard Price</span>
+                </label>
+
+                <!-- price-info -->
+                 <div class="price-info">
+                    <span class="price">$10.00 USD</span>
+                    <p>$24.00 USD</p>
+                 </div>
+            </div>
+
+            <!-- Option 2 -->
+            <div class="option popular">
+                <input type="radio" name="unit" id="unit2">
+                <label for="unit2">
+                    <span class="unit-info">
+                        <span>2 Unit</span>
+                        <span class="discount">20% Off</span>
+                        <span class="popular-tag">MOST POPULAR</span>
+                        <span class="price">
+                            <span>$18.00 USD</span>
+                            <span class="original-price">$24.00 USD</span>
+                        </span>
+                    </span>
+                </label>
+                
+            </div>
+
+            <!-- Option 3 -->
+            <div  id="option3">
+                <input type="radio" name="unit" id="unit3">
+                <label for="unit3">
+                    <span id="unit-info">
+                        <span>3 Unit</span>
+                        <span id="discount">30% Off</span>
+                    </span>
+                    <div class="option-3">
+                        <span class="price">$24.00 USD</span>
+                        <span class="original-price">$34.00 USD</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="delivery-info">
+            <!-- Delivery and Total -->
+            <div class="delivery">
+                <span>Free Delivery</span>
+                <span>Total : $18.00 USD</span>
+            </div>
+        </div>
+
+        <!-- Add to Cart -->
+        <div class="btn">
+            <button class="add-to-cart">
+                <span>+ Add to Cart</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
